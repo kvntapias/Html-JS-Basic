@@ -1,0 +1,35 @@
+body {
+  background-color: #000;
+}
+.wrapper {
+  max-width: 1000px;
+  background-color: #333;
+  margin: 0 auto;
+  position: relative;
+}
+img {
+  width: 100%;
+  heigth: auto;
+}
+.mySlider {
+  display: block;
+  margin: 0 auto;
+}
+.btn {
+  width: 50px;
+  padding: .5em 0;
+  text-align: center;
+  background-color: rgba(0, 0, 0, 0.5);
+  color: #fff;
+  cursor: pointer;
+}
+#btnPrev {
+  position: absolute;
+  top: 45%;
+  left: 0;
+}
+#btnNext {
+  position: absolute;
+  top: 45%;
+  right: 0;
+}
